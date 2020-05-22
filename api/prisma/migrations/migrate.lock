@@ -1,0 +1,9 @@
+# IF THERE'S A GIT CONFLICT IN THIS FILE, DON'T SOLVE IT MANUALLY!
+# INSTEAD EXECUTE `prisma migrate fix`
+# Prisma Migrate lockfile v1
+# Read more about conflict resolution here: TODO
+
+20200522142810-initial_model_setup
+20200522143221-update_relations
+20200522143549-make_product_optional_in_user
+20200522172704-update_plural_relations

@@ -1,0 +1,29 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "CreateField",
+      "model": "Product",
+      "field": "users",
+      "type": "User",
+      "arity": "List"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Product",
+      "field": "user"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Warehouse",
+      "field": "shipments",
+      "type": "Shipment",
+      "arity": "List"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Warehouse",
+      "field": "shipment"
+    }
+  ]
+}
