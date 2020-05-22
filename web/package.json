@@ -6,10 +6,23 @@
     "defaults"
   ],
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "@redwoodjs/auth": "^0.7.0",
     "@redwoodjs/router": "^0.7.0",
     "@redwoodjs/web": "^0.7.0",
+    "autoprefixer": "^9.8.0",
+    "netlify-identity-widget": "^1.6.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "autoprefixer": "^9.8.0",
+    "postcss-loader": "^3.0.0",
+    "tailwindcss": "^1.4.6"
   }
 }
